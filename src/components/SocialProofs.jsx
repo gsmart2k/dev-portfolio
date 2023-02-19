@@ -21,22 +21,22 @@ function SocialProofs(props) {
     {
       author: "Kevin. R",
       testimony:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipiscisunt quisquam quae minima deserunt",
+        "Gbolahan is an awesome developer. He pays attention to details.",
     },
     {
       author: "Tara.O",
       testimony:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipiscisunt quisquam quae minima deserunt",
+        "I met him on a freelance platform and since then, we've been working so closely together with very little or no issues.",
     },
     {
       author: "Joshua. F",
       testimony:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipiscisunt quisquam quae minima deserunt",
+        "He handled my website and I was so impressed. I had given the gig to a former dev and he messaed up the whole thing until I met Gbolahan !.",
     },
     {
       author: "Jibola. O",
       testimony:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipiscisunt quisquam quae minima deserunt",
+        "He helped with my school assignment. I had a bug in my code and i couldn't fix it. I never knew Gbolahan would fix it so quick !",
     },
   ];
   return (
