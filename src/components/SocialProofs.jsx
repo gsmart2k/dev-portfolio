@@ -7,7 +7,7 @@ function SocialProofs(props) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (proofCount >= 4) {
+      if (proofCount >= Proofs.length) {
         setProofCount(0);
       } else {
         setProofCount(proofCount++);
@@ -31,12 +31,22 @@ function SocialProofs(props) {
     {
       author: "Joshua. F",
       testimony:
-        "He handled my website and I was so impressed. I had given the gig to a former dev and he messaed up the whole thing until I met Gbolahan !.",
+        "He handled my website and I was so impressed. I had given the gig to a former dev and he messed up the whole thing until I met Gbolahan !.",
     },
     {
       author: "Jibola. O",
       testimony:
         "He helped with my school assignment. I had a bug in my code and i couldn't fix it. I never knew Gbolahan would fix it so quick !",
+    },
+    {
+      author: "Cynthia. P",
+      testimony:
+        "I had this body care website and it was full of issues. I was particularly concerned about the responsiveness and Gbolahan did a magic. Yea, it's his works but I will always give him his flowers",
+    },
+    {
+      author: "Nelson. M",
+      testimony:
+        "Thank Goodness I met Gbolahan. Man is so awesome and he understands my issues without too much explanation !",
     },
   ];
   return (
