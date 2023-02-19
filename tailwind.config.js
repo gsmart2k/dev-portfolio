@@ -7,8 +7,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      ivy: "ivy Mode",
-      tt: "tt commons",
+      ivy: ['Gloock', 'serif'],
+      tt: ['Raleway', 'sans-serif'],
     },
     extend: {
       colors: {

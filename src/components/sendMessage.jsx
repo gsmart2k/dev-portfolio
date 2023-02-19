@@ -10,7 +10,7 @@ function SendMessage(props) {
         <div className="bg-primary w-10 h-2 relative right-20"></div>
       </div>
       <form
-        className="flex flex-col justify-center items-center space-y-5 w-70 p-3 lg:w-6/12"
+        className="flex flex-col justify-center items-center space-y-5 w-100 p-3 lg:w-6/12"
         action=""
       >
         <input
